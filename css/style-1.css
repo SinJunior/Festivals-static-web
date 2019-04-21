@@ -1,0 +1,404 @@
+.ct-section {
+	background-color: #ececec;
+}
+.container .header .header-top h1{
+	padding-bottom: 5px;
+	margin: 10px 0;
+	line-height: 4rem;
+	font-size: 3.6rem;
+	box-sizing: inherit;
+	color: black;
+	font-weight: bold;
+}
+.container .header .header-top h2{
+	margin-bottom: 10px;
+	margin-top: 0;
+	line-height: 2.3rem;
+	font-size: 2.2rem;
+	box-sizing: inherit;
+	color: black;
+}
+@font-face{
+	font-family: Roboto-medium;
+	src: url(../fonts/Roboto-medium.ttf);
+}
+@font-face{
+	font-family: Roboto-Bold;
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face{
+	font-family: Roboto-Regular;
+	src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face{
+	font-family: Roboto-ThinItalic;
+	src: url('../fonts/Roboto-ThinItalic.ttf');
+}
+@font-face{
+	font-family: Roboto-Light;
+	src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face{
+	font-family: ITCFranklinGothicStd-BkCd;
+	src: url(../fonts/ITCFranklinGothicStd-BkCd.woff);
+}
+@font-face{
+	font-family: ITCFranklinGothicStd-Med;
+	src: url(../fonts/ITCFranklinGothicStd-Med.woff);
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.sticky1 {
+	margin-top: 30px;
+	position: fixed;
+	top: 30px;
+	width: 24%;
+}
+.fu {
+	font-family: Roboto-Light;
+}
+.container .header .header-top .text1{
+	font-family: Roboto-medium;
+}
+/*header header-top */
+.container .header .header-top .text2{
+	font-family: Roboto-Regular;
+}
+.header-bottom{
+	border-top: 4px solid #209591;
+	border-bottom: 1px solid #209591;
+}
+.header-bottom .header-bottom-right {
+	padding: 10px 0;
+	text-align: right;
+	line-height: 25px;
+}
+.header-bottom .header-bottom-right span{
+	text-align: right;
+	font-family: Roboto-Regular;
+}
+.section{
+	margin-bottom: 10px;
+	padding: 5px 5px 0 5px;
+	font-family: Roboto-Regular;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	margin-top: 15px;
+}
+.section1{
+	background-color: white;
+	text-align: justify;
+}
+.section1 img{
+	/*height: 422px;*/
+}
+.box-img {
+	position: relative;
+}
+.img-content{
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	background-color: black;
+	color: white;
+}
+.img-content2{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color: black;
+	color: white;
+}
+.img-content-tintuc{
+	width: 70px;
+	height: auto;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
+	background-color: #E1192C;
+	color: white;
+}
+.clear {
+	clear: both;
+}
+.section1-box-content{
+	padding: 20px;
+}
+
+.section2{
+	background-color: white;
+	box-sizing: all;
+}
+.section2-content {
+	margin-top: 20px;
+	/*padding: 15px 0 0 0;*/
+
+}
+.section2-content-text{
+	padding: 15px;
+	text-align: justify;
+}
+.section2-content-tittle{
+	margin-bottom: 15px;
+}
+.section2-content-place{
+	margin-bottom: 15px;
+}
+.section2-content-for{
+	margin-bottom: 15px;
+}
+.section2-content-tittle a{
+	text-decoration: none; 
+	color: black; 
+	font-family:ITCFranklinGothicStd-BkCd; 
+	font-weight: bold; line-height: 2.8rem; 
+	font-size: 2.8rem;
+}
+.btn-default{
+	text-transform: uppercase;
+	border: 1.5px solid black;
+	color: black;
+	width: 109px;
+	height: 43px;
+	padding: 10px 20px;
+	vertical-align: middle;
+	font-size: 1.2rem;
+}
+.btn-default:hover{
+	background-color: white;
+	border-color: #209591;
+	color: #0898ff;
+}
+.aside1{
+	margin-top: 10px;
+	/*border: 2px solid #802000;*/
+}
+.aside .aside-content{
+	background-color: white;
+	padding: 15px;
+}
+.aside .aside-content h3{
+	font-family: Roboto-medium;
+	margin: 0;
+}
+.aside .aside-content .aside-content-detail{
+	padding: 15px 0;
+	border-bottom: 1px solid #EEEEEE;
+	vertical-align: middle;
+}
+.aside .aside-content .aside-content-detail .img {
+	/*margin-right: 10px;*/
+	float: left;
+	display: inline-block;
+	width: 30%;
+}
+.aside .aside-content .aside-content-detail .img img{
+	width: 100%;
+}
+.aside .aside-content .aside-content-detail .text {
+	float: right;
+	padding-left: 10px;
+	display: inline-block;
+	width: 70%;
+	font-family: Roboto-Regular;
+	font-size: 1.5rem;
+}
+.aside .aside-content .aside-content-detail .text .link{
+	text-decoration: none;
+	color: black;
+	/*font-family: */
+
+}
+.aside .aside-content .aside-content-detail .text .link :hover{
+	text-decoration: none;
+	color: #209591;
+}
+
+
+/*===============================DETAIL====================================*/
+.text-bold-detail{
+	text-decoration: none; 
+	color: black; 
+	font-family:ITCFranklinGothicStd-BkCd; 
+	font-weight: bold; line-height: 2.8rem; 
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+.new .new-content .new-content-detail{
+	margin-top: 10px;
+	padding: 10px;
+	background-color: white;
+	border-bottom: 2px solid #209591;
+}
+.new .new-content .new-content-detail img{
+	float: left;
+	width: 30%;
+	/*margin-right: 20px*/
+
+}
+.new .new-content .new-content-detail .text{
+	float: left;
+	/*margin-left: 20px;*/
+	width: 70%;
+	/*width: 65%;*/
+	padding-left: 20px;
+}
+.new .new-content .new-content-detail .text button{
+	margin-bottom: 10px;
+}
+.new .new-content .new-content-detail .text a:hover{
+	text-decoration: none;
+}
+.new .new-content .new-content-detail  .text .top .text1{
+	font-family: ITCFranklinGothicStd-Med;
+	color: black;
+	font-size: 2.5rem;
+	padding: 0;
+	text-decoration: none;
+	width: 100%;
+	line-height: 2.5rem;
+}
+
+.new .new-content .new-content-detail .text .bottom .text2{
+	font-family: Roboto-ThinItalic;
+	font-weight: bold;
+	color: #9E9E9E;
+	font-size: 1.5rem;
+	text-decoration: none;
+	width: 100%;
+}
+
+
+
+/*====================BUTTON==================*/
+
+
+.facebook{
+	margin: 0;
+	padding: 0;
+	width: 76px;
+	height: 30px;
+	background-color: #3B5998;
+	border: 1px solid #3B5998;
+}
+.fa-facebook-f {
+	color: white;
+	background-color: #3B5998;
+	padding: 
+}
+.fa-facebook-f:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.facebook span{
+	/*float: left;*/
+	margin-right: 10px;
+	vertical-align: middle;
+	padding: 5px 0 3px 0;
+	color: white;
+}
+
+.tweet{
+	margin: 0;
+	padding: 0;
+	width: 76px;
+	height: 30px;
+	background-color: #55ACEE;
+	border: 1px solid #55ACEE;
+}
+.fa-twitter {
+	color: white;
+	background-color: #55ACEE;
+	padding: 
+}
+.fa-twitter:hover{
+	text-decoration: none;
+	color: white;
+}
+.tweet  span{
+	margin-right: 10px;
+	vertical-align: middle;
+	padding: 5px 0 3px 0;
+	color: white;
+}
+/*====================BUTTON==================*/
+.tintuc .tintuc-detail{
+	height: auto;
+	padding: 0px 5px ;
+	margin-bottom: 10px;
+}
+.tintuc .tintuc-detail .text{
+	background-color: white;
+	padding-bottom: 20px;
+}
+.tintuc .tintuc-detail .text .tintuc-tittle{
+	padding: 10px;
+}
+.tintuc .tintuc-detail .text .tintuc-tittle a span{
+	color: black;
+	font-family: Roboto-Bold;
+	line-height: 1.2;
+	font-size: 2.6rem;
+	/*text-align: justify;*/
+	text-align: left;
+	background-color: white;
+}
+.tintuc .tintuc-detail .text .tintuc-tittle a:hover{
+	text-decoration: none;
+	color: none;
+
+}
+.tintuc .tintuc-detail .text .tintuc-content{
+	padding: 10px;
+}
+.tintuc .tintuc-detail .text .tintuc-content a span{
+	color: black;
+	font-family: Roboto-Light;
+	line-height: 1.2;
+	font-size: 1.4rem;
+	text-align: justify;
+	text-align: left;
+	background-color: white;
+}
+.tintuc .tintuc-detail .text .tintuc-content a:hover{
+	text-decoration: none;
+}
+.btn-danger {
+	border: #209591;
+	background-color: #209591;
+}
+.btn-danger:hover, .btn-danger:focus {
+	background-color: rgba(32,140,136,.5);
+}
+/* ============================= */
+@media(max-width: 1224px) {
+	.sticky1 {
+		margin-top: 30px;
+		position: fixed;
+		top: 30px;
+		width: 29%;
+	}
+}
+@media(max-width: 767px) {
+	header {
+		display: none;
+	}
+	.title-home {
+		font-size: 130%;
+	}
+	.aside {
+		padding: 5px!important;
+	}
+	.sticky1 {
+		margin-top: 0;
+		position: relative;
+		width: 100%;
+		top: 0;
+	}
+}

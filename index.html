@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	    <title>Menu</title>
+	    <link rel="shortcut icon" type="image/x-icon" href="./images/logo-icon.png">
+	    <link rel="stylesheet" href="./css/bootstrap.min.css">
+	    <link rel="stylesheet" href="./css/style-2.css">
+	    <link rel="stylesheet" href="./css/animate.css">
+	    <link rel="stylesheet" href="./css/hover-min.css">
+	    <link rel="stylesheet" href="./css/style.css">
+	    <link rel="stylesheet" href="./css/style-menu.css">
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <script src="./js/jquery-1.11.3.min.js"></script>
+	    <script src="./js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!-- <div class="container-fluid"> -->
+		<header></header>
+		<nav class="navbar navbar-default fu" id="menubar">
+	    	<div class="container">
+	    		<ul class="nav navbar-nav bar">
+	    			<li class="" id="fa-bars"><a class="fa fa-bars"></a></li>
+	    			<li class="col-xs-offset-3 logo-nav">
+	    				<a class="a-sm" href="index.html"><span id="nav-lg"><img src="./images/festivals.png" width="80"></span></a>
+	    			</li>
+	    		</ul>
+	    		<div class="area-menu">
+	    		<ul class="nav navbar-nav main-menu">
+	    			<li class="li-active" id="home">
+	    				<span class="tri-top"></span>
+	    				<a class="active logo-home" href="#"><img src="./images/festivals.png" width="80"></a>
+	    			</li>
+	    			<li>
+	    				<span class="tri-top"></span>
+	    				<a href="about_us.html">About Us</a>
+	    			</li>
+	    			<li>
+	    				<span class="tri-top"></span>
+	    				<a href="gallery.html">Festival</a>
+	    				<ul class="submenu">
+	    					<li><a href="gallery.html">India</a></li>
+	    					<li><a href="gallery.html">United Kingdom</a></li>
+	    					<li><a href="gallery.html">USA</a></li>
+	    					<li><a href="gallery.html">Japan</a></li>
+	    				</ul>
+	    			</li>
+	    			<li>
+	    				<span class="tri-top"></span>
+	    				<a href="contact.html">Contact</a>
+	    			</li>
+	    			<li>
+	    				<span class="tri-top"></span>
+	    				<a href="news.html">News</a>
+	    			</li>
+	    		</ul>
+	    		<ul class="nav navbar-nav navbar-right main-menu">
+	    			<li>
+	    				<span class="tri-top"></span>
+	    				<a href="#" data-toggle="modal" data-target="#myLg"><span class="glyphicon glyphicon-user"></span></a>
+	    			</li>
+	    			<li>
+	    				<span class="tri-top"></span>
+	    				<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span><span class="badge" id="num-buy">0</span></a>
+	    				<div class="tri-up"></div>
+	    				<div class="hide-box-souvenir">
+	    					
+	    					<div> Product : <span id="product"></span></div>
+	    					<div> Count : <span id="count">0</span></div>
+	    				</div>
+	    			</li>
+	    		</ul>
+	    		</div>
+	    	</div>
+	    </nav>
+
+	    <!-- Section -->
+	    <div class="container-fluid content">
+	    	<div class="slide"></div>
+	    	<div class="container">
+	    		<div class="title-home">Festivals</div>
+	    		<div class="box-content">
+	    			<div class="col-sm-6 mg-bottom">
+	    				<a href="gallery.html">
+	    					<div class="box-home">
+		    					<div class="title-ih">USA</div>
+		    					Coachella
+		    				</div>
+		    				<div class="box-image">
+		    					<a href="./images/Coachella/coachella.jpg">
+		    						<img src="./images/Coachella/coachella.jpg" width="100%">
+		    					</a>
+		    				</div>
+	    				</a>
+	    			</div>
+	    			<div class="col-sm-6 mg-bottom">
+	    				<a href="gallery.html">
+	    					<div class="box-home">
+		    					<div class="title-ih">India</div>
+		    					Magnetic Fields
+		    				</div>
+		    				<div class="box-image">
+		    					<a href="./images/MagneticFields/magnetic-fields-fest.jpg">
+		    						<img src="./images/MagneticFields/magnetic-fields-fest.jpg" width="100%">	
+		    					</a>
+		    				</div>
+	    				</a>
+	    			</div>
+	    			<div class="clear"></div>
+	    		</div>
+	    		<div class="box-content">
+	    			<div class="col-sm-4">
+    					<div class="box-image">
+    						<a href="./images/SoundOnSound/SoundOnSound.jpg">
+    							<img src="./images/SoundOnSound/SoundOnSound.jpg" width="100%">	
+    						</a>
+    					</div>
+	    				<a href="gallery.html">
+	    					<div class="title-ih-3">USA</div>
+	    					Sound On Sound
+	    				</a>
+	    			</div>
+	    			<div class="col-sm-4">
+    					<div class="box-image">
+    						<a href="./images/Bestival/bestival1.jpg">
+    							<img src="./images/Bestival/bestival1.jpg" width="100%">
+    						</a>
+    					</div>
+	    				<a href="gallery.html">
+	    					<div class="title-ih-3">United KingDom</div>
+	    					Bestival
+	    				</a>
+	    			</div>
+	    			<div class="col-sm-4">
+    					<div class="box-image">
+    						<a href="./images/FieldDay/fieldDay.jpg">
+    							<img src="./images/FieldDay/fieldDay.jpg" width="100%">
+    						</a>
+    					</div>
+	    				<a href="gallery.html">
+	    					<div class="title-ih-3">United KingDom</div>
+	    					Field Day
+	    				</a>
+	    			</div>
+	    			<div class="clear"></div>
+	    		</div>
+	    		<div class="box-content">
+	    			<div class="col-sm-4">
+    					<div class="box-image">
+    						<a href="./images/TaicoClub/taico-club.jpeg">
+    							<img src="./images/TaicoClub/taico-club.jpeg" width="100%">
+    						</a>
+    					</div>
+    					<a href="gallery.html">
+	    					<div class="title-ih-3">Japan</div>
+	    					Taico Club
+	    				</a>
+	    			</div>
+	    			<div class="col-sm-4">
+    					<div class="box-image">
+    						<a href="./images/BurningMan/burning-man.jpg">
+    							<img src="./images/BurningMan/burning-man.jpg" width="100%">
+    						</a>
+    					</div>
+	    				<a href="gallery.html">
+	    					<div class="title-ih-3">USA</div>
+	    					Burning Man
+	    				</a>
+	    			</div>
+	    			<div class="col-sm-4">
+    					<div class="box-image">
+    						<a href="./images/GreenMan/green-man.jpeg">
+    							<img src="./images/GreenMan/green-man.jpeg" width="100%">
+    						</a>
+    					</div>
+	    				<a href="gallery.html">
+	    					<div class="title-ih-3">Wales</div>
+	    					Green Man
+	    				</a>
+	    			</div>
+	    			<div class="clear"></div>
+	    		</div>
+	    		<div class="title-home">Festival Books</div>
+	    		<div class="box-content">
+	    			<div class="col-sm-4 souvenir">
+	    				<div>
+		    				<div class="content-souvenir">
+		    					<div class="box-souvenir">
+		    						<div class="product">Professor astro cat's frontiers of Space</div>
+		    					</div>
+		    					<img src="./images/festival-book/Astro_book.jpg" width="100%">
+		    				</div>
+		    				<div>
+		    					<div class="souvenir-price">
+		    						&#36;30.00 <sup><s>&#36;45.00</s></sup>
+		    					</div>
+		    					<a class="btn btn-buy hvr-pulse-shrink" id="0">Buy</a>
+		    				</div>	    					
+	    				</div>
+	    			</div>
+	    			<div class="col-sm-4 souvenir">
+	    				<div>
+		    				<div class="content-souvenir">
+		    					<div class="box-souvenir">
+		    						<div class="product">Fairbridge</div>
+		    					</div>
+		    					<img src="./images/festival-book/Fairbridge.jpg" width="100%">
+		    				</div>
+		    				<div>
+		    					<div class="souvenir-price">
+		    						&#36;15.00 <sup><s>&#36;21.00</s></sup>
+		    					</div>
+		    					<a class="btn btn-buy hvr-pulse-shrink" id="1">Buy</a>
+		    				</div>	    					
+	    				</div>
+	    			</div>
+	    			<div class="col-sm-4 souvenir">
+	    				<div>
+		    				<div class="content-souvenir">
+		    					<div class="box-souvenir">
+		    						<div class="product">Inside the world of Roblox</div>
+		    					</div>
+		    					<img src="./images/festival-book/Robloxs.jpg" width="100%">
+		    				</div>
+		    				<div>
+		    					<div class="souvenir-price">
+		    						&#36;35.00 <sup><s>&#36;45.00</s></sup>
+		    					</div>
+		    					<a class="btn btn-buy hvr-pulse-shrink" id="2">Buy</a>
+		    				</div>
+	    				</div>
+	    			</div>
+	    			<div class="clear"></div>
+	    		</div>
+	    		<div class="box-content">
+	    			<div class="col-sm-4 souvenir">
+	    				<div>
+		    				<div class="content-souvenir">
+		    					<div class="box-souvenir">
+		    						<div class="product">The Impossible</div>
+		    					</div>
+		    					<img src="./images/festival-book/The-Impossible.jpg" width="100%">
+		    				</div>
+		    				<div>
+		    					<div class="souvenir-price">
+		    						&#36;20.00 <sup><s>&#36;32.00</s></sup>
+		    					</div>
+		    					<a class="btn btn-buy hvr-pulse-shrink" id="3">Buy</a>
+		    				</div>
+	    				</div>
+	    			</div>
+	    			<div class="col-sm-4 souvenir">
+	    				<div>
+		    				<div class="content-souvenir">
+		    					<div class="box-souvenir">
+		    						<div class="product">Wild and Scenic</div>
+		    					</div>
+		    					<img src="./images/festival-book/WildAndScenic.jpg" width="100%">
+		    				</div>
+		    				<div>
+		    					<div class="souvenir-price">
+		    						&#36;38.00 <sup><s>&#36;47.00</s></sup>
+		    					</div>
+		    					<a class="btn btn-buy hvr-pulse-shrink" id="4">Buy</a>
+		    				</div>
+	    				</div>
+	    			</div>
+	    			<div class="col-sm-4 souvenir">
+	    				<div>
+	    					<div class="content-souvenir">
+		    					<div class="box-souvenir">
+		    						<div class="product">Worship Wars</div>
+		    					</div>
+		    					<img src="./images/festival-book/worship-wars.jpg" width="100%">
+		    				</div>
+		    				<div>
+		    					<div class="souvenir-price">
+		    						&#36;36.00 <sup><s>&#36;42.00</s></sup>
+		    					</div>
+		    					<a class="btn btn-buy hvr-pulse-shrink" id="5">Buy</a>
+		    				</div>
+	    				</div>
+	    			</div>
+	    			<div class="clear"></div>
+	    		</div>
+	    		<div class="title-home">Souvenir</div>
+	    		<div class="box-content">
+	    			<div class="col-sm-4 souvenir">
+	    				<div>
+		    				<div class="content-souvenir">
+		    					<div class="box-souvenir">
+		    						<div class="product">Matryoshka doll</div>
+		    						<div class="country">Russia</div>
+		    					</div>
+		    					<img src="./images/Souvenir/Matryoshka-doll.jpg" width="100%">
+		    				</div>
+		    				<div>
+		    					<div class="souvenir-price">
+		    						&#36;30.00 <sup><s>&#36;45.00</s></sup>
+		    					</div>
+		    					<a class="btn btn-buy hvr-pulse-shrink" id="0">Buy</a>
+		    				</div>	    					
+	    				</div>
+	    			</div>
+	    			<div class="col-sm-4 souvenir">
+	    				<div>
+		    				<div class="content-souvenir">
+		    					<div class="box-souvenir">
+		    						<div class="product">Eiffel Tower keychain</div>
+		    						<div class="country">France</div>
+		    					</div>
+		    					<img src="./images/Souvenir/Eiffel-Tower-keychain.jpg" width="100%">
+		    				</div>
+		    				<div>
+		    					<div class="souvenir-price">
+		    						&#36;15.00 <sup><s>&#36;21.00</s></sup>
+		    					</div>
+		    					<a class="btn btn-buy hvr-pulse-shrink" id="1">Buy</a>
+		    				</div>	    					
+	    				</div>
+	    			</div>
+	    			<div class="col-sm-4 souvenir">
+	    				<div>
+		    				<div class="content-souvenir">
+		    					<div class="box-souvenir">
+		    						<div class="product">Straw Hat</div>
+		    						<div class="country">North American</div>
+		    					</div>
+		    					<img src="./images/Souvenir/Straw-hat.jpg" width="100%">
+		    				</div>
+		    				<div>
+		    					<div class="souvenir-price">
+		    						&#36;35.00 <sup><s>&#36;45.00</s></sup>
+		    					</div>
+		    					<a class="btn btn-buy hvr-pulse-shrink" id="2">Buy</a>
+		    				</div>
+	    				</div>
+	    			</div>
+	    			<div class="clear"></div>
+	    		</div>
+	    		<div class="box-content">
+	    			<div class="col-sm-4 souvenir">
+	    				<div>
+		    				<div class="content-souvenir">
+		    					<div class="box-souvenir">
+		    						<div class="product">Lacquer box</div>
+		    						<div class="country">Russia</div>
+		    					</div>
+		    					<img src="./images/Souvenir/Lacquer-box.jpg" width="100%">
+		    				</div>
+		    				<div>
+		    					<div class="souvenir-price">
+		    						&#36;20.00 <sup><s>&#36;32.00</s></sup>
+		    					</div>
+		    					<a class="btn btn-buy hvr-pulse-shrink" id="3">Buy</a>
+		    				</div>
+	    				</div>
+	    			</div>
+	    			<div class="col-sm-4 souvenir">
+	    				<div>
+		    				<div class="content-souvenir">
+		    					<div class="box-souvenir">
+		    						<div class="product">Ceramics</div>
+		    						<div class="country">Morocco</div>
+		    					</div>
+		    					<img src="./images/Souvenir/Ceramics.jpg" width="100%">
+		    				</div>
+		    				<div>
+		    					<div class="souvenir-price">
+		    						&#36;38.00 <sup><s>&#36;47.00</s></sup>
+		    					</div>
+		    					<a class="btn btn-buy hvr-pulse-shrink" id="4">Buy</a>
+		    				</div>
+	    				</div>
+	    			</div>
+	    			<div class="col-sm-4 souvenir">
+	    				<div>
+	    					<div class="content-souvenir">
+		    					<div class="box-souvenir">
+		    						<div class="product">Venetian Mask</div>
+		    						<div class="country">Italy</div>
+		    					</div>
+		    					<img src="./images/Souvenir/Venetian-Mask.jpg" width="100%">
+		    				</div>
+		    				<div>
+		    					<div class="souvenir-price">
+		    						&#36;36.00 <sup><s>&#36;42.00</s></sup>
+		    					</div>
+		    					<a class="btn btn-buy hvr-pulse-shrink" id="5">Buy</a>
+		    				</div>
+	    				</div>
+	    			</div>
+	    			<div class="clear"></div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="footer11"></div>
+	<!-- </div> -->
+		<div id="myModal"></div>
+	</body>
+
+	<script src="./js/javascript.js"></script>
+</html>

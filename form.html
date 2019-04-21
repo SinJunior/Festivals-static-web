@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Form</title>
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="./js/jquery-1.11.3.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<a type="button" class="btn btn-primary" href="#" data-toggle="modal" data-target="#myLogin">Login</a>
+		</div>
+		<div class="container">
+			<div class="row">
+		        <div class="span12">
+					<div class="modal fade" id="myLg" role="dialog">
+				    	<div class="modal-dialog modal-md">
+				    		<div class="modal-content">
+				    			<div class="modal-header">
+				                	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				              	</div>
+				              	<div class="modal-body">
+				                	<div class="well">
+					                  	<ul class="nav nav-tabs">
+					                    	<li class="active"><a href="#login" data-toggle="tab">Login</a></li>
+					                    	<li><a href="#create" data-toggle="tab">Create Account</a></li>
+					                  	</ul>
+					                  	<div id="myTabContent" class="tab-content">
+					                    	<div class="tab-pane active in" id="login">
+						                      	<form action='' method="POST">
+					                        	  	<div class="form-group fg-top">
+														<div class="input-group">
+															<span class="input-group-addon"><i class="fa fa-user"></i></span>
+															<input type="text" class="form-control" name="username" placeholder="Username" required="required">
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="input-group">
+															<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+															<input type="password" class="form-control" name="password" placeholder="Password" required="required">
+														</div>
+													</div>
+													<div class="form-group btn-submit">
+														<button type="submit" class="btn btn-primary">LogIn</button>
+													</div>
+						                      	</form>                
+						                    </div>
+						                    <div class="tab-pane fade" id="create">
+						                      	<form id="tab">
+							                        <div class="form-group fg-top">
+														<div class="input-group">
+															<span class="input-group-addon"><i class="fa fa-user"></i></span>
+															<input type="text" class="form-control" name="username" placeholder="Username" required="required">
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="input-group">
+															<span class="input-group-addon iga-center"><i class="fa fa-envelope-square"></i></span>
+															<input type="email" class="form-control" name="email" placeholder="Email" required="required">
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="input-group">
+															<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+															<input type="password" class="form-control" name="password" placeholder="Password" required="required">
+														</div>
+													</div>
+													<div class="form-group btn-submit">
+														<button type="submit" class="btn btn-success">Create</button>
+													</div>
+						                      	</form>
+						                    </div>
+						                </div>
+						            </div>
+					    		</div>
+					    	</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

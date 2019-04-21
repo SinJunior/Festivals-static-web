@@ -1,0 +1,50 @@
+@font-face {
+	font-family: Roboto-light;
+	src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+	font-family: Roboto-medium;
+	src: url('../fonts/Roboto-Medium.ttf');
+}
+.none-padding {
+	padding: 0;
+}
+.sitemap {
+	font-family: Roboto-light;
+}
+.title-sitemap {
+	padding: 5px 0 5px 5px;
+	font-family: Roboto-medium;
+	font-size: 300%;
+	border-bottom: 1px solid #209591;
+}
+.link-sitemap {
+	padding: 10px;
+	padding-bottom: 20px;
+}
+.link-sitemap div div {
+	padding: 10px 0;
+	/*text-align: center;*/
+	font-weight: bold;
+	font-size: 130%;
+	text-decoration: underline;
+}
+.link-sitemap div a {
+	margin-left: 10px;
+	font-weight: bold;
+	color: #555;
+}
+.link-sitemap div a:hover, .link-sitemap div a:focus {
+	background-color: #fff;
+	color: #209591;
+}
+.btn-sitemap {
+	background-color: #ffeffa;
+	border: 1px solid #209591;
+	border-radius: 0;
+}
+@media(max-width: 767px) {
+	header {
+		display: none!important;
+	}
+}

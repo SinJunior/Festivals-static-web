@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <!-- <meta http-equiv="x-ua-compatible" content="IE=edge"> -->
+	    <title>Menu</title>
+	    <link rel="shortcut icon" type="image/x-icon" href="./images/logo-icon.png">
+	    <link rel="stylesheet" href="./css/bootstrap.min.css">
+	    <link rel="stylesheet" href="./css/style-2.css">
+	    <link rel="stylesheet" href="./css/style.css">
+	    <link rel="stylesheet" href="./css/style-menu.css">
+	    <link rel="stylesheet" href="./css/form.css">
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <script src="./js/jquery-1.11.3.min.js"></script>
+	    <script src="./js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header></header>
+		<nav class="navbar navbar-default fu" id="menubar">
+	    	<div class="container">
+	    		<ul class="nav navbar-nav bar">
+	    			<li class="" id="fa-bars"><a class="fa fa-bars"></a></li>
+	    			<li class="col-xs-offset-3 logo-nav">
+	    				<a class="a-sm" href="index.html"><span id="nav-lg"><img src="./images/festivals.png" width="80"></span></a>
+	    			</li>
+	    		</ul>
+	    		<div class="area-menu">
+	    		<ul class="nav navbar-nav main-menu">
+	    			<li class="li-active" id="home">
+	    				<span class="tri-top"></span>
+	    				<a class="logo-home" href="index.html"><img src="./images/festivals.png" width="80"></a>
+	    			</li>
+	    			<li>
+	    				<span class="tri-top"></span>
+	    				<a href="about_us.html">About Us</a>
+	    			</li>
+	    			<li>
+	    				<span class="tri-top"></span>
+	    				<a href="gallery.html">Festival</a>
+	    				<ul class="submenu">
+							<li><a href="gallery.html">India</a></li>
+							<li><a href="gallery.html">United Kingdom</a></li>
+							<li><a href="gallery.html">USA</a></li>
+							<li><a href="gallery.html">Japan</a></li>
+	    				</ul>
+	    			</li>
+	    			<li class="li-active">
+	    				<span class="tri-top"></span>
+	    				<a class="active" href="#">Contact</a>
+	    			</li>
+	    			<li>
+	    				<span class="tri-top"></span>
+	    				<a href="news.html">News</a>
+	    			</li>
+	    		</ul>
+	    		<ul class="nav navbar-nav navbar-right main-menu">
+	    			<li>
+	    				<span class="tri-top"></span>
+	    				<a href="#" data-toggle="modal" data-target="#myLg"><span class="glyphicon glyphicon-user"></span></a>
+	    			</li>
+	    			<li>
+	    				<span class="tri-top"></span>
+	    				<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span><span class="badge" id="num-buy">0</span></a>
+	    				<div class="tri-up"></div>
+	    				<div class="hide-box-souvenir">
+	    					
+	    					<div> Product : <span id="product"></span></div>
+	    					<div> Count : <span id="count">0</span></div>
+	    				</div>
+	    			</li>
+	    		</ul>
+	    		</div>
+	    	</div>
+	    </nav>
+		<div class="container-fluid content">
+			<div class="container">
+				<div class="title-home">Contact Us</div>
+				<div class="box-content">
+					<div class="col-sm-6 none-padding">
+						<div class="col-sm-7 none-padding">
+							<div>
+								<p><span>Questions or enquiries?</span></p>
+								Phone: +84 985 204 903 or +84 1 629 415 213<br/>
+								Fax: +84 985 204 903<br/>
+								Email: <a href="mailto:info@gmail.com">info@gmail.com</a>
+								<p>Office hours: 8.30am–5.30pm, Mon–Fri </p>
+							</div>
+						</div>
+						<div class="col-sm-5 none-padding">
+							<div>
+								<p><span>Office Address</span></p>
+								World Trade Centre Barakhamba Lane, 
+								Connaught Place, New Delhi
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 none-padding">
+						<div class="">
+							<form id="subForm" action="">
+								<input type="text" id="in-left" name="fullName" placeholder="FullName..">
+								<input type="Email" name="email" placeholder="Email"><br/>
+								<textarea rows="5" name="boxMail"></textarea><br/>
+								<button class="btn" form="subForm" key="submit" htmlType="submit">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="box-content">
+					<div id="googleMap"></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer11"></div>
+		<div id="myModal"></div>
+	</body>
+    <script src="./js/javascript.js"></script>
+	<script>
+		function initMap() {
+		  var myMap = {lat: 16.0693853, lng: 108.2226162};
+
+		  var map = new google.maps.Map(document.getElementById('googleMap'), {
+		    center: myMap,
+		    zoom: 11
+		  });
+
+		  var marker = new google.maps.Marker({
+		    map: map,
+		    position: myMap,
+		    title: 'Map Inc.'
+		  });
+		}
+	</script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC889vYsUTjIjhfbzLtB_LErRNbwyHLsD8&callback=initMap"></script>
+</html>
